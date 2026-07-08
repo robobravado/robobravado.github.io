@@ -42,6 +42,9 @@ const usersData = [{
     "name":"RemainNick",
     "!bingo":60
 },{
+    "name":"RoboSideCar",
+    "!bingo":60
+},{
     "name":"SutekhPrime",
     "!relax":60,
     "!uppiesgasm":60
