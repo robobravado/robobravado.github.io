@@ -7,6 +7,9 @@ const usersData = [{
     "name":"BodeVocoder",
     "!relax":60
 },{
+    "name":"Deejennn",
+    "!uppiesgasm":60
+},{
     "name":"EphemerisFM",
     "!relax":60,
     "!uppiesgasm":60
@@ -22,7 +25,8 @@ const usersData = [{
     "!relax":60,
     "!uppiesgasm":60,
     "!ugasm":0,
-    "!robert":30
+    "!robert":30,
+    "!bingo":60
 },{
     "name":"larryDave_id",
     "!relax":60
