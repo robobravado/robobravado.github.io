@@ -40,6 +40,9 @@ const usersData = [{
     "!relax":60,
     "!uppiesgasm":60
 },{
+    "name":"osfish",
+    "!kitty":60
+},{
     "name":"RandomVoiceGuy",
     "!bingo":60
 },{
@@ -68,7 +71,8 @@ const subscribersData = [{
 },{
     "months":6,
     "!bobthink":60,
-    "!bobnow":60
+    "!bobnow":60,
+    "!kitty":60
 }];
 
 const rolesData = [{
