@@ -40,7 +40,7 @@ const usersData = [{
     "!relax":60,
     "!uppiesgasm":60
 },{
-    "name":"osfish",
+    "name":"PithyPeaches",
     "!kitty":60
 },{
     "name":"RandomVoiceGuy",
