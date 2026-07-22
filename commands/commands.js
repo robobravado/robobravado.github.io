@@ -12,7 +12,8 @@ const usersData = [{
 },{
     "name":"EphemerisFM",
     "!relax":60,
-    "!uppiesgasm":60
+    "!uppiesgasm":60,
+    "!bingo":60
 },{
     "name":"grapenuts",
     "!relax":60
@@ -20,6 +21,9 @@ const usersData = [{
     "name":"HyperStipherX",
     "!relax":60,
     "!bingo":60
+},{
+    "name":"Imperial_Sun",
+    "!robert":30
 },{
     "name":"ir0nthighs",
     "!relax":60,
