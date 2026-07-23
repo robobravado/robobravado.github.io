@@ -38,7 +38,8 @@ const usersData = [{
     "name":"Luthimir",
     "!relax":60,
     "!uppiesgasm":60,
-    "!bingo":30
+    "!bingo":30,
+    "!robert":30
 },{
     "name":"osfish",
     "!relax":60,
@@ -61,11 +62,13 @@ const usersData = [{
     "!uppiesgasm":60
 },{
     "name":"Tyrandian",
-    "!relax":60
+    "!relax":60,
+    "!robert":30
 },{
     "name":"zimchuck",
     "!relax":60,
-    "!bingo":60
+    "!bingo":60,
+    "!robert":30
 }];
 
 const subscribersData = [{
