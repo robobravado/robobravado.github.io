@@ -49,7 +49,8 @@ const usersData = [{
     "!kitty":60
 },{
     "name":"RandomVoiceGuy",
-    "!bingo":60
+    "!bingo":60,
+    "!uppiesgasm":60
 },{
     "name":"RemainNick",
     "!bingo":60
