@@ -4,6 +4,9 @@ const usersData = [{
     "!bingo":60,
     "!robert":30
 },{
+    "name":"blinkdogswarm",
+    "!chomp":60
+},{
     "name":"BodeVocoder",
     "!relax":60
 },{
@@ -16,11 +19,13 @@ const usersData = [{
     "!bingo":60
 },{
     "name":"grapenuts",
-    "!relax":60
+    "!relax":60,
+    "!robert":30
 },{
     "name":"HyperStipherX",
     "!relax":60,
-    "!bingo":60
+    "!bingo":60,
+    "!chomp":60
 },{
     "name":"Imperial_Sun",
     "!robert":30
@@ -39,18 +44,24 @@ const usersData = [{
     "!relax":60,
     "!uppiesgasm":60,
     "!bingo":30,
-    "!robert":30
+    "!robert":30,
+    "!chomp":60
 },{
     "name":"osfish",
     "!relax":60,
-    "!uppiesgasm":60
+    "!uppiesgasm":60,
+    "!chomp":60
 },{
     "name":"PithyPeaches",
     "!kitty":60
 },{
+    "name":"pound_n",
+    "!chomp":60
+},{
     "name":"RandomVoiceGuy",
     "!bingo":60,
-    "!uppiesgasm":60
+    "!uppiesgasm":60,
+    "!chomp":60
 },{
     "name":"RemainNick",
     "!bingo":60
@@ -60,16 +71,19 @@ const usersData = [{
 },{
     "name":"SutekhPrime",
     "!relax":60,
-    "!uppiesgasm":60
+    "!uppiesgasm":60,
+    "!chomp":60
 },{
     "name":"Tyrandian",
     "!relax":60,
-    "!robert":30
+    "!robert":30,
+    "!chomp":60
 },{
     "name":"zimchuck",
     "!relax":60,
     "!bingo":60,
-    "!robert":30
+    "!robert":30,
+    "!chomp":60
 }];
 
 const subscribersData = [{
