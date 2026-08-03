@@ -8,7 +8,8 @@ const usersData = [{
     "!chomp":60
 },{
     "name":"BodeVocoder",
-    "!relax":60
+    "!relax":60,
+    "!chomp":60
 },{
     "name":"Deejennn",
     "!uppiesgasm":60
@@ -16,7 +17,8 @@ const usersData = [{
     "name":"EphemerisFM",
     "!relax":60,
     "!uppiesgasm":60,
-    "!bingo":60
+    "!bingo":60,
+    "!chomp":60
 },{
     "name":"grapenuts",
     "!relax":60,
