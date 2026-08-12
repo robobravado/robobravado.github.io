@@ -2,7 +2,7 @@ const usersData = [{
     "name":"Beebslaweez",
     "!relax":60,
     "!bingo":60,
-    "!robert":30
+    "!robert (plus !robhelp !robshit !roblight)":30
 },{
     "name":"blinkdogswarm",
     "!chomp":60
@@ -12,7 +12,8 @@ const usersData = [{
     "!chomp":60
 },{
     "name":"Deejennn",
-    "!uppiesgasm":60
+    "!uppiesgasm":60,
+    "!relax":60
 },{
     "name":"EphemerisFM",
     "!relax":60,
@@ -22,7 +23,7 @@ const usersData = [{
 },{
     "name":"grapenuts",
     "!relax":60,
-    "!robert":30
+    "!robert (plus !robhelp !robshit !roblight)":30
 },{
     "name":"HyperStipherX",
     "!relax":60,
@@ -30,13 +31,13 @@ const usersData = [{
     "!chomp":60
 },{
     "name":"Imperial_Sun",
-    "!robert":30
+    "!robert (plus !robhelp !robshit !roblight)":30
 },{
     "name":"ir0nthighs",
     "!relax":60,
     "!uppiesgasm":60,
     "!ugasm":0,
-    "!robert":30,
+    "!robert (plus !robhelp !robshit !roblight)":30,
     "!bingo":60
 },{
     "name":"larryDave_id",
@@ -46,7 +47,7 @@ const usersData = [{
     "!relax":60,
     "!uppiesgasm":60,
     "!bingo":30,
-    "!robert":30,
+    "!robert (plus !robhelp !robshit !roblight)":30,
     "!chomp":60
 },{
     "name":"osfish",
@@ -78,13 +79,13 @@ const usersData = [{
 },{
     "name":"Tyrandian",
     "!relax":60,
-    "!robert":30,
+    "!robert (plus !robhelp !robshit !roblight)":30,
     "!chomp":60
 },{
     "name":"zimchuck",
     "!relax":60,
     "!bingo":60,
-    "!robert":30,
+    "!robert (plus !robhelp !robshit !roblight)":30,
     "!chomp":60
 }];
 
@@ -121,7 +122,7 @@ const copyableData = {
     "!relax":60,
     "!uppiesgasm":60,
     "!bingo":60,
-    "!robert":30
+    "!robert (plus !robhelp !robshit !roblight)":30
 }
   null;
 
