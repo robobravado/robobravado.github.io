@@ -56,7 +56,8 @@ const usersData = [{
     "!chomp":60
 },{
     "name":"PithyPeaches",
-    "!kitty":60
+    "!kitty":60,
+    "!relax":60
 },{
     "name":"pound_n",
     "!chomp":60
