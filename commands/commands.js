@@ -9,7 +9,8 @@ const usersData = [{
 },{
     "name":"BodeVocoder",
     "!relax":60,
-    "!chomp":60
+    "!chomp":60,
+    "!robert (plus !robhelp !robshit !roblight)":30
 },{
     "name":"Deejennn",
     "!uppiesgasm":60,
@@ -41,7 +42,8 @@ const usersData = [{
     "!bingo":60
 },{
     "name":"larryDave_id",
-    "!relax":60
+    "!relax":60,
+    "!robert (plus !robhelp !robshit !roblight)":30
 },{
     "name":"Luthimir",
     "!relax":60,
@@ -68,7 +70,8 @@ const usersData = [{
     "!chomp":60
 },{
     "name":"RemainNick",
-    "!bingo":60
+    "!bingo":60,
+    "!robert (plus !robhelp !robshit !roblight)":30
 },{
     "name":"RoboSideCar",
     "!bingo":60
