@@ -20,7 +20,8 @@ const usersData = [{
     "!relax":60,
     "!uppiesgasm":60,
     "!bingo":60,
-    "!chomp":60
+    "!chomp":60,
+    "!robert (plus !robhelp !robshit !roblight)":30
 },{
     "name":"grapenuts",
     "!relax":60,
@@ -55,7 +56,8 @@ const usersData = [{
     "name":"osfish",
     "!relax":60,
     "!uppiesgasm":60,
-    "!chomp":60
+    "!chomp":60,
+    "!robert (plus !robhelp !robshit !roblight)":30
 },{
     "name":"PithyPeaches",
     "!kitty":60,
