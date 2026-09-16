@@ -76,7 +76,8 @@ const usersData = [{
     "!robert (plus !robhelp !robshit !roblight)":30
 },{
     "name":"RoboSideCar",
-    "!bingo":60
+    "!bingo":60,
+    "!banana":60
 },{
     "name":"SutekhPrime",
     "!relax":60,
@@ -130,7 +131,8 @@ const copyableData = {
     "!relax":60,
     "!uppiesgasm":60,
     "!bingo":60,
-    "!robert (plus !robhelp !robshit !roblight)":30
+    "!robert (plus !robhelp !robshit !roblight)":30,
+    "!banana":60
 }
   null;
 
