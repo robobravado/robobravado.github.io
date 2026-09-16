@@ -86,13 +86,15 @@ const usersData = [{
     "name":"Tyrandian",
     "!relax":60,
     "!robert (plus !robhelp !robshit !roblight)":30,
-    "!chomp":60
+    "!chomp":60,
+    "!lights":60
 },{
     "name":"zimchuck",
     "!relax":60,
     "!bingo":60,
     "!robert (plus !robhelp !robshit !roblight)":30,
-    "!chomp":60
+    "!chomp":60,
+    "!arm":60
 }];
 
 const subscribersData = [{
