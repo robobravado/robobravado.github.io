@@ -132,7 +132,8 @@ const copyableData = {
     "!uppiesgasm":60,
     "!bingo":60,
     "!robert (plus !robhelp !robshit !roblight)":30,
-    "!banana":60
+    "!banana":60,
+    "!lights":60
 }
   null;
 
