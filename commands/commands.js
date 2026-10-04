@@ -1,3 +1,8 @@
+// ── Embed your JSON data directly here ────────────────────────
+// Replace the placeholder arrays/objects below with the actual
+// contents of each of your JSON files. This avoids CORS issues
+// when opening the page directly from the filesystem.
+
 const usersData = [{
     "name":"Beebslaweez",
     "!relax":60,
@@ -10,6 +15,9 @@ const usersData = [{
     "name":"BodeVocoder",
     "!relax":60,
     "!chomp":60,
+    "!robert (plus !robhelp !robshit !roblight)":30
+},{
+    "name":"cyndrakial",
     "!robert (plus !robhelp !robshit !roblight)":30
 },{
     "name":"Deejennn",
@@ -25,7 +33,8 @@ const usersData = [{
 },{
     "name":"grapenuts",
     "!relax":60,
-    "!robert (plus !robhelp !robshit !roblight)":30
+    "!robert (plus !robhelp !robshit !roblight)":30,
+    "!lights":60
 },{
     "name":"HyperStipherX",
     "!relax":60,
@@ -40,7 +49,8 @@ const usersData = [{
     "!uppiesgasm":60,
     "!ugasm":0,
     "!robert (plus !robhelp !robshit !roblight)":30,
-    "!bingo":60
+    "!bingo":60,
+    "!banana":60
 },{
     "name":"larryDave_id",
     "!relax":60,
@@ -51,7 +61,10 @@ const usersData = [{
     "!uppiesgasm":60,
     "!bingo":30,
     "!robert (plus !robhelp !robshit !roblight)":30,
-    "!chomp":60
+    "!chomp":60,
+    "!imin ($25)":60,
+    "!keyboard ($25)":60,
+    "!thumbs ($25)":60
 },{
     "name":"osfish",
     "!relax":60,
@@ -83,6 +96,9 @@ const usersData = [{
     "!relax":60,
     "!uppiesgasm":60,
     "!chomp":60
+},{
+    "name":"the_TBMonkey",
+    "!relax":60
 },{
     "name":"Tyrandian",
     "!relax":60,
@@ -135,6 +151,16 @@ const copyableData = {
     "!banana":60,
     "!lights":60
 }
+
+  null;
+
+const premiumCopyableData = {
+    "name":"Premium copyable",
+    "!imin ($25)":60,
+    "!keyboard ($25)":60,
+    "!thumbs ($25)":60
+}
+
   null;
 
 // ── Everything below this line runs automatically ─────────────
@@ -143,7 +169,7 @@ let rolesLoaded = [];
 let globalRole  = null;
 
 function init() {
-  if (!copyableData && rolesData.length === 0 && usersData.length === 0 && subscribersData.length === 0) {
+  if (!copyableData && !premiumCopyableData && rolesData.length === 0 && usersData.length === 0 && subscribersData.length === 0) {
     document.getElementById('results').innerHTML =
       `<div class="placeholder-card" style="color:var(--red)">
         No data loaded. Open commands.js and paste your JSON data into the variables at the top of the file.
@@ -170,6 +196,11 @@ function buildCheckboxes() {
   if (copyableData) {
     const label = copyableData.name || 'Copyable Commands';
     container.appendChild(makeCheckbox('copyable', label));
+  }
+
+  if (premiumCopyableData) {
+    const label = premiumCopyableData.name || 'Premium Copyable';
+    container.appendChild(makeCheckbox('premiumCopyable', label));
   }
 }
 
@@ -283,6 +314,25 @@ function render() {
     });
   }
 
+  // 6. Premium copyable commands — non-dupes shown in goldenrod
+  const premiumCb = document.getElementById('premiumCopyable');
+  if (premiumCb && premiumCb.checked && premiumCopyableData) {
+    const userObj  = usersData.find(u => u.name && u.name.toLowerCase() === nameVal);
+    const userCmds = new Set(userObj ? getCommands(userObj).map(c => c.cmd) : []);
+
+    const filtered = getCommands(premiumCopyableData)
+      .filter(({ cmd }) => !userCmds.has(cmd));
+
+    sections.push({
+      title: premiumCopyableData.name || 'Premium Copyable',
+      badge: null,
+      note:  null,
+      cmds:  filtered,
+      style: 'premium',
+      empty: 'No unique premium copyable commands (all are already listed above).',
+    });
+  }
+
   // ── Build output HTML ─────────────────────────────────────────
   const resultsEl = document.getElementById('results');
 
@@ -300,8 +350,9 @@ function render() {
       bodyHTML = `<div class="empty-note">${sec.empty || 'No commands.'}</div>`;
     } else {
       const items = sec.cmds.map(({ cmd, cooldown }) => {
-        const isRed    = sec.style === 'copyable';
-        const cmdClass = isRed ? 'cmd red' : 'cmd';
+        const cmdClass = sec.style === 'copyable' ? 'cmd red'
+                       : sec.style === 'premium'  ? 'cmd gold'
+                       : 'cmd';
         return `<li>
           <span class="${cmdClass}">${cmd}</span>
           <span class="cooldown">— cooldown of ${cooldown} minute${cooldown !== 1 ? 's' : ''}</span>

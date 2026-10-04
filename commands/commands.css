@@ -13,6 +13,7 @@
   --text-muted:#7880a0;
   --text-dim:  #4a5070;
   --red:       #f06a6a;
+  --gold:      #daa520;
   --radius:    10px;
   --font-body: 'Inter', system-ui, sans-serif;
   --font-mono: 'JetBrains Mono', monospace;
@@ -205,6 +206,7 @@ input[type="number"] { width: 140px; }
 }
 
 .cmd.red { color: var(--red); }
+.cmd.gold { color: var(--gold); }
 
 .cooldown {
   color: var(--text-muted);
