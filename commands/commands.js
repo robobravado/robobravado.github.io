@@ -18,7 +18,8 @@ const usersData = [{
     "!robert (plus !robhelp !robshit !roblight)":30
 },{
     "name":"cyndrakial",
-    "!robert (plus !robhelp !robshit !roblight)":30
+    "!robert (plus !robhelp !robshit !roblight)":30,
+    "!lights":60
 },{
     "name":"Deejennn",
     "!uppiesgasm":60,
@@ -66,6 +67,12 @@ const usersData = [{
     "!keyboard ($25)":60,
     "!thumbs ($25)":60
 },{
+    "name":"maddybugs",
+    "!banana":60
+},{
+    "name":"monkeylawngnome",
+    "!relax":60
+},{
     "name":"osfish",
     "!relax":60,
     "!uppiesgasm":60,
@@ -111,7 +118,7 @@ const usersData = [{
     "!bingo":60,
     "!robert (plus !robhelp !robshit !roblight)":30,
     "!chomp":60,
-    "!arm":60
+    "!arm ($50)":60
 }];
 
 const subscribersData = [{
@@ -158,7 +165,8 @@ const premiumCopyableData = {
     "name":"Premium copyable",
     "!imin ($25)":60,
     "!keyboard ($25)":60,
-    "!thumbs ($25)":60
+    "!thumbs ($25)":60,
+    "!arm ($50)":60
 }
 
   null;
