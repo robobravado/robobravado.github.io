@@ -15,7 +15,8 @@ const usersData = [{
     "name":"BodeVocoder",
     "!relax":60,
     "!chomp":60,
-    "!robert (plus !robhelp !robshit !roblight)":30
+    "!robert (plus !robhelp !robshit !roblight)":30,
+    "!banana":60
 },{
     "name":"cyndrakial",
     "!robert (plus !robhelp !robshit !roblight)":30,
