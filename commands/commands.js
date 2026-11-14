@@ -31,7 +31,8 @@ const usersData = [{
     "!uppiesgasm":60,
     "!bingo":60,
     "!chomp":60,
-    "!robert (plus !robhelp !robshit !roblight)":30
+    "!robert (plus !robhelp !robshit !roblight)":30,
+    "!lights":60
 },{
     "name":"grapenuts",
     "!relax":60,
