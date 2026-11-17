@@ -158,7 +158,8 @@ const copyableData = {
     "!bingo":60,
     "!robert (plus !robhelp !robshit !roblight)":30,
     "!banana":60,
-    "!lights":60
+    "!lights":60,
+    "!pants":60
 }
 
   null;
