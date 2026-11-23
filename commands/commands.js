@@ -132,6 +132,10 @@ const subscribersData = [{
     "!bobthink":60,
     "!bobnow":60,
     "!kitty":60
+},{
+    "months":12,
+    "!threshold":60,
+    "!wow":60
 }];
 
 const rolesData = [{
@@ -159,7 +163,8 @@ const copyableData = {
     "!robert (plus !robhelp !robshit !roblight)":30,
     "!banana":60,
     "!lights":60,
-    "!pants":60
+    "!pants":60,
+    "!brahng":60
 }
 
   null;
